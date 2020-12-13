@@ -29,3 +29,9 @@
   Hello guys!, my name is **Samer Alnajjar** a Civil Engineer who is pasoinate to learn programming,
   here is my link to github: [Github](https://github.com/Samer-Alnajjar)
   
+  * Introduced to terminal and bash
+  * Leaned a few command line such as **pwd**, **cd**, and **ls**.
+  
+  
+  
+  
