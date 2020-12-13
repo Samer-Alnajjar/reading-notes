@@ -14,12 +14,7 @@
     2. * Add a star in the Start of a line to create unordered list.
     3. 1- Add a number in the Start of a line to create ordered list.
     4. [Google](http://google.com)
-    5. To create a table:
-    
-                         Person 1 | Person 2
-                     ------------ | -------------
-                          married | Single
-                Doesn't have money| Has a lot of money
+    5. ![Image of cute cat](https://pbs.twimg.com/profile_images/1089487574492680192/gjaa3FKV_400x400.jpg)
                 
   * Download VSCode (Text Editor) 
   * Configure WSL with windows
