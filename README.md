@@ -10,6 +10,16 @@
 
 * **Sunday-13/12/2020**
   * Markdown.
+    1. Add a #, then type anything it will be a heading like (# head1 <h1>).
+    2. Add a * in the Start of a line to create unordered list.
+    3. Add a 1- in the Start of a line to create ordered list.
+    4. http://google.com - automatic!
+       [Google](http://google.com)
+    5. To create a table:
+                         Person 1 | Person 2
+                     ------------ | -------------
+                          married | Single
+                Doesn't have money| Has a lot of money
   * Download VSCode (Text Editor) 
   * Configure WSL with windows
   * Growth mindset, which is in short words, it's like everything will become easy with time, you just have to keep moving forward.
