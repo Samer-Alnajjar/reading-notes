@@ -13,8 +13,7 @@
     1. Add a # it will be a heading 1 in html.
     2. * Add a star in the Start of a line to create unordered list.
     3. 1- Add a number in the Start of a line to create ordered list.
-    4. http://google.com - automatic!
-       [Google](http://google.com)
+    4. [Google](http://google.com)
     5. To create a table:
                          Person 1 | Person 2
                      ------------ | -------------
