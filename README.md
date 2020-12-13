@@ -8,5 +8,6 @@
 
 * **Sunday-13/12/2020**
   * Markdown.
-  * The text editor that we will be used (vsCode). 
+  * Download VSCode (Text Editor) 
+  * Configure WSL with windows
   
