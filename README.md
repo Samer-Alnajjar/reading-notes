@@ -15,10 +15,12 @@
     3. 1- Add a number in the Start of a line to create ordered list.
     4. [Google](http://google.com)
     5. To create a table:
+    
                          Person 1 | Person 2
                      ------------ | -------------
                           married | Single
                 Doesn't have money| Has a lot of money
+                
   * Download VSCode (Text Editor) 
   * Configure WSL with windows
   * Growth mindset, which is in short words, it's like everything will become easy with time, you just have to keep moving forward.
