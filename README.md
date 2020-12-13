@@ -14,7 +14,7 @@
     2. * Add a star in the Start of a line to create an unordered list.
     3. 1- Add a number at the Start of a line to create an ordered list.
     4. [Google](http://google.com)
-    5. High five!!
+    5. **High five!!**
     
     ![Image of cute cat](https://pbs.twimg.com/profile_images/1089487574492680192/gjaa3FKV_400x400.jpg)
                 
@@ -30,7 +30,7 @@
   here is my link to github: [Github](https://github.com/Samer-Alnajjar)
   
   * Introduced to terminal and bash
-  * Leaned a few command line such as **pwd**, **cd**, and **ls**.
+  * Learned a few command lines such as **pwd**, **cd**, and **ls**.
   
   
   
