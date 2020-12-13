@@ -22,5 +22,8 @@
     and always remmeber the following to keep you moving forward:
       1. No one is born with these skills, so everyone went through what you are in now.
       2. Remmber that your instructor Tamim also went through this and he is now a software development instructor.
-      3. It will become easier daya after day, just keep moving forward. 
+      3. It will become easier daya after day, just keep moving forward.
+      
+  Hello guys!, my name is **Samer Alnajjar** a Civil Engineer who is pasoinate to learn programming,
+  here is my link to github: [Github](https://github.com/Samer-Alnajjar)
   
