@@ -1,5 +1,7 @@
 **Monday-14/12/2020**
 
+**This is what I leanred in class 102_03:**
+
 * I learned that Git DVCS(Distributed Version Control systems), in short words it's a command tool used to communicate with GitHub for the purpose of:
   1. to track the changes in our code.
   2. share our code with others.
