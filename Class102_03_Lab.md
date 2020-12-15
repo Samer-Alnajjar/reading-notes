@@ -15,4 +15,4 @@
 | -------------       |-------------  |
 | Saturday_12/12/2020 | [Class101](https://samer-alnajjar.github.io/reading-notes/Class101)      |
 | Sunday_13/12/2020   | [Class102_01](https://samer-alnajjar.github.io/reading-notes/Class102_01) / [Class102_02](https://samer-alnajjar.github.io/reading-notes/Class102_02)|
-| Monday_14/12/2020   | [Class102_03](https://samer-alnajjar.github.io/reading-notes/Class102_03_Read) / [Class102_04](https://samer-alnajjar.github.io/reading-notes/Class102_04_Read)|
+| Monday_14/12/2020   | [Class102_03](https://samer-alnajjar.github.io/reading-notes/Class102_03_Lab) / [Class102_04](https://samer-alnajjar.github.io/reading-notes/Class102_04_Read)|
