@@ -21,7 +21,7 @@
 
 3. Different logical operators:
     * AND (**&&**)
-    * OR (**||**)
+    * OR (**double |**)
     * NOT (**!**)
 
 4. Loops check a condition, if it's true the code will run then the condition with check again if it's true it will run the code again, it will continue repeating until the condition is false.
