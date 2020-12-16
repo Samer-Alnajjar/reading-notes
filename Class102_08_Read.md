@@ -4,9 +4,11 @@
 
 
 * I learned the following:
+
 1. The decision-making process has two components:
     * An expression that returns a value.
     * A Conditional statement.
+
 2. Different comparison operators:
     * is equal to (**==**)
     * is not equal to (**!=**)
@@ -20,7 +22,9 @@
     * AND (**&&**)
     * OR (**||**)
     * NOT (**!**)
+
 4. Loops check a condition, if it's true the code will run then the condition with check again if it's true it will run the code again, it will continue repeating until the condition is false.
+
 5. We have three types of loops:
     * FOR, Use it if you want to run code for a specific number of times.
     * WHILE, Use it if you don't know how many   times you want to run your code.
