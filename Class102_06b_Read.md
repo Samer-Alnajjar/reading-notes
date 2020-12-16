@@ -1,3 +1,7 @@
+**Tuesday-15/12/2020**
+
+**This is what I leanred in class 102_06b:**
+
 * I learned the following:
 1. How data is transferred with electricity through a wire when it's on (Yes = 1), and the Bit is the smallest piece of information the computer can store. 
 2. How all computers work by doing 4 steps:
