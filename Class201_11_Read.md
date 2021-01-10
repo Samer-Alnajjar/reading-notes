@@ -38,4 +38,4 @@
             7: Page Descriptions.
 
         - On-Page:
-        It's linking the website with releveant web pages.
+        It's linking the website with releveant subjects web pages.
