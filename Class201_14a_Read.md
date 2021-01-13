@@ -30,7 +30,9 @@
 
     2. Also we can use some properties to add some animation to the elements such as **slide**.
 
-      For more information please check this link:[Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
+    For more information please check this link:
+      
+    [Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
     3. Here are some CSS3 transitions tricks that will amaze you.
     - Fade in
