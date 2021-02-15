@@ -42,4 +42,3 @@ We can select element using jQuery by:
     - Social skills
     - Job interview readiness
     - Work environment readiness
-    - $("p").on("click",callback)
