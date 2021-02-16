@@ -1,6 +1,6 @@
 **Monday-15/2/2021**
 
-**This is what I learned in class 203_02:**
+**This is what I learned in class 301_02:**
 
 * I learned the following:
 
