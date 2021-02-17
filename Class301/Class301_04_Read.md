@@ -1,3 +1,4 @@
+**Wednesday-16/2/2021**
 
 **This is what I learned in class 301_04:**
 
@@ -8,5 +9,4 @@
 3. We can define columns and rows for grid, such as:
   "grid-template-columns:" ;
   "grid-template-rows: ;"
-
 4. A regular expression (shortened as regex or regexp, also referred to as rational expression) is a sequence of characters that define a search pattern.
