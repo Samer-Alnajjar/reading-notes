@@ -20,7 +20,7 @@
             
             node server.js
 
-3. Please follow the link, 
+3. Please follow the link for the rest of the steps, 
 [Link](https://howtonode.org/deploy-blog-to-heroku) 
 
 4. Heruko it's online service (cloud) with limited features to upload our project on it.
