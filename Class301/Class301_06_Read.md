@@ -14,5 +14,3 @@
 8. Please refer to this page for deploying nvm [nvm guide](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
 9. We use npm to install node packages.
 10. When installing node packages it will create a file **package.json**, and it will contain all the packages we installed.
-
-as
