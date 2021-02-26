@@ -13,3 +13,21 @@
      - npm install ejs
      - app.set('view engine', 'ejs')
      - then create the routes for your website.
+
+4. EJS is mostly useful whenever you have to output HTML with a lot of javascript.
+5. Google Books APIs,  is a way to search and access that content.
+6. https://www.googleapis.com/auth/books
+7. A sample of the response object:
+   
+   {
+ "kind": "books#volume",
+ "id": "zyTCAlFPjgYC",
+ "etag": "f0zKg75Mx/I",
+ "selfLink": "https://www.googleapis.com/books/v1/volumes/zyTCAlFPjgYC",
+ "volumeInfo": {
+  "title": "The Google story",
+  "authors": [
+   "David A. Vise",
+   "Mark Malseed"
+  ]
+
