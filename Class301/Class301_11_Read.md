@@ -1,4 +1,4 @@
-**Thursday-26/2/2021**
+**Friday-26/2/2021**
 
 **This is what I learned in class 301_11:**
 
