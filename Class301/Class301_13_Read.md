@@ -1,6 +1,6 @@
 **Tuesday-1/3/2021**
 
-**This is what I learned in class 301_12:**
+**This is what I learned in class 301_13:**
 
 ![Client/Server architecture](https://madooei.github.io/cs421_sp20_homepage/assets/client-server-1.png)
 
