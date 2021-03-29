@@ -1,0 +1,37 @@
+**Monday-29/3/2021**
+
+**This is what I learned in class 401_03:**
+
+![Image of middleware](https://laravelnews.imgix.net/images/scount-featured.jpg?ixlib=php-3.3.0)
+
+![Image of Black Box](https://image.slidesharecdn.com/blackboxtestingorbehavioraltesting-121116004408-phpapp01/95/black-box-testing-or-behavioral-testing-3-638.jpg?cb=1353026710)
+
+* I learned the following:
+
+  1. We used middlewares for the following reasons:
+      -  Having the ability to send a PUT request.
+      -  Having the ability to send a DELETE request.
+      -  Having the ability to send a PATCH request.
+  2.  True or false: The route handler is middleware?
+    False, [Route handlers VS middleware](https://stackoverflow.com/questions/58925276/what-is-the-difference-between-a-route-handler-and-middleware-function-in-expres).
+
+  3. In what ways can a middleware function end the process and send data to the browser?
+
+      It will receive the request and if there is a response it will send it other than that there should be next();
+  4. At what point in the request lifecycle can you “inject” middleware?
+   
+        When receiving the requests
+
+  5. What can cause express to error with “Request headers sent twice, cannot start a second response” 
+        
+        Means that you're already in the Body or Finished state, but some function tried to set a header or statusCode. When you see this error, look for callbacks that are accidentally called twice, or any error that happens after the body is sent.
+
+  6. **Middleware** functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle.
+  7. **Request Object**, is the object that sent when the client is requesting.
+  8. **Response Object**, is the object that response when the client is requesting.
+  9. **Application Middleware**, it's an application that uses middleware.
+  10. **Routing Middleware** refers to how an application’s endpoints (URIs) respond to client requests. For an introduction to routing.
+  11. **Test Driven Development (TDD)** it's a way of programming that starts with testing then writing the code.
+  12. **Behavioural Testing** is a testing of the external behaviour of the program, also known as black box testing. It is usually a functional testing.
+
+     
