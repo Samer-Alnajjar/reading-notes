@@ -44,4 +44,4 @@
   14. **CI**, Continues Integration is a workflow to ensure everyone changes integrate to reduce bugs and conflicts.
   15. **CD**, Continues Delivery is the process of developing to release at any time.
   16. Continues Deployment, is the process of deploying new features immediately.  
-  17. **Data Model**, is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.
+
