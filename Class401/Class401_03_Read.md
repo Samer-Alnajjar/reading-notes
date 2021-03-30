@@ -2,9 +2,9 @@
 
 **This is what I learned in class 401_03:**
 
-![Image of data model](https://i2.wp.com/www.complexsql.com/wp-content/uploads/2018/05/Data-Modeling.png?fit=555%2C340&ssl=1)
+![Image of middleware](https://laravelnews.imgix.net/images/scount-featured.jpg?ixlib=php-3.3.0)
 
-![Image of REST](https://miro.medium.com/max/1032/1*sPLooWMag11pjZnzYXIQCA.png)
+![Image of Black Box](https://image.slidesharecdn.com/blackboxtestingorbehavioraltesting-121116004408-phpapp01/95/black-box-testing-or-behavioral-testing-3-638.jpg?cb=1353026710)
 
 * I learned the following:
 
