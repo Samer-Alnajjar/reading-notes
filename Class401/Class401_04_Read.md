@@ -34,4 +34,19 @@
   14. **Jest**, is JS testing framework.
   15. **CI**, Continues Integration is a workflow to ensure everyone changes integrate to reduce bugs and conflicts.
   16. **REST** stands for Representational State Transfer, REST is an architectural pattern, REST uses Uniform Service locators to access to the components on the hardware device, it work with plain text, XML, HTML and JSON, REST can make use of SOAP.
+  17. **SQL vs NoSQL:**
+
+        1. SQL databases are relational, NoSQL are non-relational.
+        2. SQL databases use structured query language and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+        3. SQL databases are vertically scalable, NoSQL databases are horizontally scalable.
+        4. SQL databases are table based, while NoSQL databases are document, key-value, graph or wide-column stores.
+        5. SQL databases are better for multi-row transactions, NoSQL are better for unstructured data like documents or JSON.
+
+  18. **NOSQL DATA MODELING TECHNIQUES:**
+
+      - **Denormalization**:
+            Denormalization can be defined as the copying of the same data into multiple documents or tables in order to simplify/optimize query processing or to fit the user’s data into a particular data model.
+      - **Aggregates** :
+      - **Application Side Joins**: Joins are rarely supported in NoSQL solutions. As a consequence of the “question-oriented” NoSQL nature, joins are often handled at design time as opposed to relational models where joins are handled at query execution time.
+      - [Other resources](https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/)
  
