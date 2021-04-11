@@ -2,9 +2,9 @@
 
 **This is what I learned in class 401_12:**
 
-![Image of AC](https://lh3.googleusercontent.com/proxy/chfZI67zPW0iScc2KOeydBgQaSGLY83bXjnOhZXvdyxgnxb2U-rExQn1R8DgUKkPraMLOAJxiRGna3Dzyf95vNsSgOjYT3ktiqTjrAqc4Ks-Si7kM24EtYd6UiJ5P1sxYQI4yJCBbP21Tw)
+![Image of socket.io](https://images.ctfassets.net/ee3ypdtck0rk/27G4lHu2Vj0Cm0CUC2x5p7/dc6ec5c252beb97314293937f70ea0d0/chat-2560521f9fe468d126d0e2cad7ee32073fa95a6b59374c3a1700fa41b85df2e2.png)
 
-![Image of Event](https://upload.wikimedia.org/wikipedia/commons/c/cb/Event_driven_programming_Simply_Explained.jpg)
+![Image of websocket](https://dz2cdn1.dzone.com/storage/temp/13729228-1594457693562.png)
 
 1. What is the benefit of transforming data into packets?
 
