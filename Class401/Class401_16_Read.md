@@ -2,6 +2,8 @@
 
 **This is what I learned in class 401_17:**
 
+![image](https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/08/26100437/S3-1024x514.png)
+
 ## AWS: S3 and Lambda 
 
 ### What’s the difference between a FIFO and a standard queue?
@@ -53,4 +55,3 @@ AWS Lambda is a service which computes the code without any server. Code is exec
 
 ### AWS Lambda Functions
 AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. With Lambda, you can run code for virtually any type of application or backend service. Just upload your code as a ZIP file or container image and Lambda runs your code based on the incoming request or event. You can write Lambda functions in your favorite language ( Node.js, Python, Go, Java, and more)
-![image](https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/08/26100437/S3-1024x514.png)
