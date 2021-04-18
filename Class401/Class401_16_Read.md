@@ -1,57 +1,41 @@
-**Sunday-18/4/2021**
+**Saturday-18/4/2021**
 
-**This is what I learned in class 401_17:**
+**This is what I learned in class 401_16:**
 
-![image](https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/08/26100437/S3-1024x514.png)
+![Image of virtualization](https://image.slidesharecdn.com/prodipcloudvsvirtualization20mins-180521072047/95/virtualization-vs-cloud-computing-whats-the-difference-23-638.jpg?cb=1526887324)
 
-## AWS: S3 and Lambda 
+![Image of linked list 2](https://www.naukri.com/learning/articles/wp-content/uploads/sites/11/2020/07/what_is_aws.jpg)
 
-### What’s the difference between a FIFO and a standard queue?
+* I learned the following:
 
-FIFO queues have much of the same characteristics as regular queues, but they still allow ordering and exactly-once operation. FIFO queues provide additional capabilities that help avoid unintended duplicates from being transmitted or retrieved by message producers and customers.
+  1. What’s the difference between a FIFO and a standard queue?
 
-### How can the server be assured a message was properly received?
+FIFO queues is the same as standard queues, but it supports ordering and exactly-once processing and ensure the order in which messages are sent and received is strictly preserved.
 
-A Message Authentication Code is a tag attached to a message to ensure integrity and authenticity
+  2. How can the server be assured a message was properly received?
+ 
+By making the server emitting the event.
 
-### What classic design pattern is best represented by event driven programming?
+ 1. What classic design pattern is best represented by event driven programming?
 
-The observer pattern is a software design pattern in which an object, named the subject, maintains a list of dependents, called observers.
+The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used for implementing distributed event handlingsystems, in "event driven" software.
 
-### How do you test an event driven system?
+  4. How do you test an event driven system?
 
-Event-driven programming is a paradigm that is widely used in many fields. This paper proposes a method for unit-testing event-driven Processing programs. It allows writing testable Processing programs and test programs in Java. It presents case studies on testing whether mouse and key events are correctly handled.
+Using unit testing
 
-### Terms:
 
-- Server Instances
+-------------------------------------------------------
+## Vocabulary Terms
 
-A server instance is a collection of database databases run by a solitary service or instance. The details of each server instance can be viewed on the
+- **Server**: computer that provides data to other computers
+- **publisher/Subscribe**: is an architectural design pattern that provides a framework for exchanging messages between publishers and subscribers.
+- **WRRC**: Web Request Response Cycle.
 
-- Containers
+------------------------------------------------------
+## Preparation Materials
 
-Application container technology will change the way IT operations are carried out, says Docker.
-
-- Cloud Services
-
-Services available via a remote cloud computing server rather than an on-site server. These scalable solutions are managed by a third party
-
-- Cloud Architecture
-
-Cloud Architecture refers to the various components in terms of databases, software capabilities, applications, etc. engineered to leverage the power of cloud resources
-
-- AWS
-
-Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free
-
-- EC2/Beanstalk vs Heroku
-Is the Heroku vs AWS Elastic Beanstalk comparison reasonable? Comparing these two products isn't very logical for several reasons. We'll also mention what are the advantages and disadvatanges of one hosting provider vs another.
-
-### AWS S3
-Amazon S3 offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use it to store and protect any amount of data. Amazon S3 is designed for 99.999999999% (11 9's) of durability. It stores data for millions of applications for companies all around the world.
-
- ### AWS Lambda Basics
-AWS Lambda is a service which computes the code without any server. Code is executed based on the response of events in services such as adding/removing files in S3 bucket
-
-### AWS Lambda Functions
-AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. With Lambda, you can run code for virtually any type of application or backend service. Just upload your code as a ZIP file or container image and Lambda runs your code based on the incoming request or event. You can write Lambda functions in your favorite language ( Node.js, Python, Go, Java, and more)
+- **Virtual machine**: it's like a physical machine inside your physical machine.
+- **Virtualization**: is software that manipulates hardware, while cloud computing refers to a service that results from that manipulation. You can't have cloud computing without virtualization.
+- **AWS**: Cloud computing gives you access to servers, storage, databases, and a broad set of application services over the Internet. A cloud services provider such as Amazon Web Services, owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.
+- **AWS Elastic Beanstalk**: AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed
