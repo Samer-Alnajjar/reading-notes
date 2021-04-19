@@ -1,3 +1,7 @@
+**Monday-20/4/2021**
+
+**This is what I learned in class 401_18:**
+
 # AWS: API, Dynamo and Lambda
 
 ![image](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2017/12/21/Source-Target-DynamoDB.jpg)
