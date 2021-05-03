@@ -2,73 +2,78 @@
 
 **This is what I learned in class 401_27:**
 
-# Component Based UI
+# Props and State
 
 ![image](https://miro.medium.com/max/3840/1*yjH3SiDaVWtpBX0g_2q68g.png)
 
-![image](https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg)
+![image](https://scriptverse.academy/img/tutorials/reactjs-components-props.png)
 
 
-1. Can a parent component access the state of a child component?
+1. Does a deployed React application require a server?
 
-In React we can access the child's state using Refs. we will assign a Refs for the child component in the parent component. then using Refs we can access the child's state. Creating Refs Refs are created using React.
+You don't necessarily need a static server in order to run a Create React App project in production. It also works well when integrated into an existing server side app.
 
-2. What can be passed along in a prop variable?
+2. Why do we prefer to test a React application at the behavior rather than the unit level?
 
-props enable you to pass variables from one to another component down the component tree.
+When it comes to React components you want to check how your component is rendered and if all props you pass to the component influence the behavior of your component as expected.
 
-3. How can a child component “know” the state of another component?
+3. What does npm run build do?
 
-- component props: What we pass from the parent component to the child component to can access them.
+npm run build creates a build directory with a production build of your app.
 
-- component state: Its a object specific to the one components.
+4. Describe the actual composition / architecture of a React application
 
-- application state: Represent all the state of the application.
+Unlike other UI libraries and frameworks, Reactjs doesn’t enforce an architecture pattern. It is just a view that caters to the user interface. Just beneath the user interface lies a tree of several React components.
 
-------------------------------------------------
+-----------------------------------
 
 ## Vocabulary Terms
 
-- **component props**:Props are arguments passed into React components. Props are passed to components via HTML attributes.
-- **component state**: The heart of every React component is its “state”, an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive.
-- **application state**: Represent all the state of the application.
 
------------------------------------------------
 
-## Preparation Materials
+**BDD**:	behavior driven development: Agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project.
 
-- React Basic Mounting
+**Acceptance Tests**:	conducted to determine if the requirements of a specification or contract are met
+mounting.	
 
-  Since class-based components are classes, hence the name, the first method that runs is the constructor method. Typically, the constructor is where you would initialize component state.
+**Mounting**: is the process of outputting the virtual representation of a component into the final UI representation (e.g. DOM or Native Components). In a browser that would mean outputting a React Element into an actual DOM element (e.g. an HTML div or li element) in the DOM tree. In a native application that would mean outputting a React element into a native component.
 
-  Next, the component runs the getDerivedStateFromProps. I’m going to skip this method since it has limited use.
+**build**:	the process of converting source code into an “executable” bundle by the browser.
 
-  Now we come to the render method which returns your JSX. Now React “mounts” onto the DOM.
 
-  Lastly, the componentDidMount method runs. Here is where you would do any asynchronous calls to databases or directly manipulate the DOM if you need. Just like that, our component is born.
+-------------------------------
 
-- Updating
+## State
 
-  This phase is triggered every time state or props change. Like in mounting, getDerivedStateFromProps is called (but no constructor this time!).
+The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
 
-  Next shouldComponentUpdate runs. Here you can compare old props/state with the new set of props/state. You can determine if your component should re-render or not by returning true or false. This can make your web app more efficient by cutting down on extra re-renders. If shouldComponentUpdate returns false, this update cycle ends.
+## Props
 
-  If not, React re-renders and getSnapshotBeforeUpdate runs afterwards. This method has limited use as well. React then runs componentDidUpdate. Like componentDidMount you can use it to make any async calls or manipulate the DOM.
+Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
 
-- Unmounting
+## SetState
 
-  Our component lived a good life, but all good things must come to an end. The unmounting phase is that last stage of the component lifecycle. When you remove a component from the DOM, React runs component Will unmount right before it gets removed.
+- Update to a component state should be done using setState().
 
-- Props.children
+- You can pass an object or a function to setState().
+  
+- Pass a function when you can to update state multiple times.
+  
+- Do not depend on this.state immediately after calling setState() and make use of the updater function instead.
 
-  props.children is a special prop, automatically passed to every component, that can be used to render the content included between the opening and closing tags when invoking a component
+## Handling Events
 
-- Composition vs Inheritance
+Handling events with React elements is  similar to handling events on DOM elements. There are some syntax differences:
 
-- Inheritance
+- React events are named using camelCase, rather than lowercase.
 
-  Those familiar with Object Oriented Programming are well aware of Inheritance and use it on a regular basis. When a child class derives properties from it’s parent class, we call it inheritance. There are variety of use-cases where inheritance can be useful.
+- With JSX you pass a function as the event handler, rather than a string.
 
-- Composition
+## Form
 
-  Composition is also a familiar concept in Object Oriented Programming. Instead of inheriting properties from a base class, it describes a class that can reference one or more objects of another class as instances.
+HTML form elements work a little bit differently from other DOM elements in React, because form elements naturally keep some internal state.
+
+## React Testing Library
+
+React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components.
+
