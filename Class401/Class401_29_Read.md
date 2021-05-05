@@ -50,13 +50,13 @@
 An example of React if:
 
 
-```
-function SomeComponent({condition}) {
-  return <div>
-    { condition ? <span>Yes it is true!</span> : null }
-  </div>
-}
-```
+
+        function SomeComponent({condition}) {
+         return <div>
+        { condition ? <span>Yes it is true!</span> : null }
+        </div>
+        }
+
 
 ## ARIA HTML:
 
