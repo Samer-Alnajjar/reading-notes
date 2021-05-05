@@ -43,9 +43,12 @@
 - React Router Component: - <Route path=''/>
 <Switch>
 
+----------------------
+
 ## React If
 
 An example of React if:
+
 
 ```
 function SomeComponent({condition}) {
