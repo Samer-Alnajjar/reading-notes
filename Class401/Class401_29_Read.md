@@ -45,7 +45,8 @@
 
 ----------------------
 
-## React If
+
+### React If
 
 An example of React if:
 
