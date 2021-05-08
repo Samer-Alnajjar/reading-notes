@@ -46,6 +46,19 @@
 ----------------------
 
 
+### React If
+
+An example of React if:
+
+
+
+        function SomeComponent({condition}) {
+         return <div>
+        { condition ? <span>Yes it is true!</span> : null }
+        </div>
+        }
+
+
 ## ARIA HTML:
 
 ARIA defines semantics that can be applied to elements, with these divided into roles (defining a type of user interface element) and states and properties that are supported by a role. ... Addition of ARIA semantics only exposes extra information to a browser's accessibility API, and does not affect a page's DOM.
