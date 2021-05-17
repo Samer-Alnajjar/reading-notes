@@ -4,7 +4,7 @@
 
 # Context API
 
-![image](https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e)
+![image](https://miro.medium.com/max/1400/1*Yo1nkzOAMihE8Ia5O411PQ.jpeg)
 
 
 1. Describe use cases for useMemo() and useReducer()
